@@ -6,7 +6,7 @@ import java.util.List;
 
 public class AbstractModel<T> {
     private Long id;
-    private Timestamp createDate;
+    private Timestamp createdDate;
     private Timestamp modifiedDate;
     private String createdBy;
     private String modifiedBy;
@@ -31,11 +31,11 @@ public class AbstractModel<T> {
     }
 
     public Timestamp getCreateDate() {
-        return createDate;
+        return createdDate;
     }
 
     public void setCreateDate(Timestamp createDate) {
-        this.createDate = createDate;
+        this.createdDate = createDate;
     }
 
     public Timestamp getModifiedDate() {
